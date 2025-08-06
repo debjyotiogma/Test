@@ -26,7 +26,7 @@ import FewClouds from "./../assets/static/few-clouds.svg";
 import Haze from "./../assets/static/haze.svg";
 import * as utilis from "./../inc/scripts/utilities";
 const ForecastWeather = () => {
-	//check if the user navigated from the home page
+	//Check weather
 	if (!db.get("HOME_PAGE_SEEN")) {
 		navigate("/");
 	}
