@@ -30,7 +30,7 @@ const ForecastWeather = () => {
 	if (!db.get("HOME_PAGE_SEEN")) {
 		navigate("/");
 	}
-	//holds the current component to insert into the utility footer component
+	//Current component
 	const [componentToInsert, setComponentToInsert] = useState("");
 	const [forecastData, setForecastData] = useState(null);
 
