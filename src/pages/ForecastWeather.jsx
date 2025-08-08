@@ -142,7 +142,7 @@ const ForecastWeather = () => {
 				)
 			);
 
-			//save the first values into the database for reference @ the home screen
+			//Save the first values into the database for reference @ the home screen
 			db.create(
 				`WEATHER_FORECAST_TIME_${i}`,
 				`${utilis.convertTo12Hour(
